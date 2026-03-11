@@ -1,0 +1,10 @@
+package  cn.itcast.MyAPP;
+import java.util.Scanner;
+public class MyAPP {
+    public static void main (String[] args){
+        Scanner scanner=new Scanner(System.in);
+        System.out.print("请输入你的名字：");
+        String name=scanner.nextLine();
+        System.out.println("你好，"+name+"!");
+    }
+}
